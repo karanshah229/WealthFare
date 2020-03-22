@@ -17,7 +17,7 @@ With a __unique__ and __informative__ blog-related style of penning our thoughts
 
 ---
 
-Wealthfare is built on Wordpress using a completely custom theme.
+Wealthfare is built on Wordpress using a completely custom theme.  
 To visit the website click on: (link coming soon!)
 
 If you find a bug or want to suggest some improvements:
