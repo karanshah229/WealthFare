@@ -6,9 +6,9 @@ TODO: Add screenshot - 'screenshot.png'
 */
 
 .montserrat {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat' !important;
 }
 
 .open_sans {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans' !important;
 }
