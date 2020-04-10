@@ -36,7 +36,15 @@
 
     <div id="sideNav" uk-offcanvas="overlay: true; mode: slide" style="background-color: rgb(0,0,0,0.35)">
         <div class="uk-offcanvas-bar">
-            <button class="uk-offcanvas-close" type="button" uk-close></button><br><br>
+            <div class="uk-grid">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <p class="uk-text-lead uk-text-center">
+                    <a class="uk-logo" href="<?php echo site_url('')?>">
+                        <img src="<?php echo get_theme_file_uri('/static/images/logo_1.png') ?>" width="40px" class="uk-hidden@m">
+                    </a>
+                    <span>Wealthfare</span>
+                </p>
+            </div><hr>
             <div>
                 <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
                     <li><a href="<?php echo site_url('')?>" <?php if (is_page('')) echo 'class="current-menu-item"' ?>><span uk-icon="home" style="padding-right: 10px"></span>Home</a></li>
