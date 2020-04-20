@@ -17,7 +17,7 @@
                             <img src="<?php echo get_theme_file_uri('/static/images/common/logo_11.png') ?>" width="65px" class="uk-visible@m">
                             <img src="<?php echo get_theme_file_uri('/static/images/common/logo.png') ?>" width="40px" class="uk-hidden@m">
                             <span class="uk-margin-left" style="color: white; font-size: 1.5rem;">W</span>
-                            <span style="color: white; font-size: 1.5rem;text-transform: lowercase">ealthfare</span>
+                            <span style="color: white; font-size: 1.5rem;text-transform: lowercase">ealthfares</span>
                             </a></li>
                         </ul>
                     </div>
