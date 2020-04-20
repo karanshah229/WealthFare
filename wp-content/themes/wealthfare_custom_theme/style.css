@@ -1,0 +1,90 @@
+/*
+Theme Name: Wealthfare Custom Theme
+Author: Karan Shah
+Version: 1.01   
+TODO: Add screenshot - 'screenshot.png'
+*/
+
+.montserrat {
+    font-family: 'Montserrat' !important;
+}
+
+.open_sans {
+    font-family: 'Open Sans' !important;
+}
+
+#respond {
+    border-top: 1px solid #CCC;
+    padding-top: 1rem
+}
+
+/* Highlight active form field */      
+#respond input[type=text], textarea {
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+    padding: 0.5rem;
+    display: block;
+}
+
+textarea {
+    max-width: 90%;
+    font-family: "Open Sans", "Droid Sans", Arial;
+    font-size: 1rem;
+}
+
+#respond input[type=text]:focus,
+input[type=email]:focus, 
+input[type=url]:focus,
+textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 0.21);
+    margin: 5px 1px 3px 0px;
+    border: 2px solid rgba(81, 203, 238, 1);
+}
+
+#author, #email { 
+    font-family: "Open Sans", "Droid Sans", Arial;
+    font-style: italic;
+    color:#1d1d1d; 
+    letter-spacing:.1em;
+}
+
+#url  {
+    color: #1d1d1d;
+    font-family: "Luicida Console", "Courier New", "Courier", monospace;
+}
+
+#submit {
+    background-color:#5cbf2a;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:5px;
+    border:1px solid #5cbf2a;
+    display:inline-block;
+    cursor:pointer;
+    color:#fff;
+    font-family:Arial;
+    font-size:15px;
+    padding: 0.75rem 1.25rem;
+    text-decoration:none;
+}
+
+#submit:active { 
+    position:relative;
+    top:1px;
+}
+
+p.comment-policy {
+    border: 1px solid #ffd499;
+    background-color: #fff4e5;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    font-size: small;
+    font-style: italic;
+}

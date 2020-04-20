@@ -1,0 +1,14 @@
+body.login div#login h1 a {
+    background-image: url('https://wealthfare.local/wp-content/uploads/2020/04/logo_no_bg.png');
+    background-size: contain;
+    margin-top: -30px;
+}
+body.login {
+    background-color: #eaeaea;
+}
+
+body.login div#login form#loginform input {
+    border-radius: 0;
+    font-size: 15px;
+    padding-left: 10px;
+}
